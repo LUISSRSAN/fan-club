@@ -10,9 +10,23 @@ body {
     color: #333;
     margin-top:20px;
     }
+    ul {
+        text-align: center;
+        color: #333;
+        margin-top: 20px;
+        }
+        form {
+        text-align: center;
+        color: #333;
+        margin-top: 20px;
+        }
+        input {
+            margin: 10px;
+            }
+            button {
+            margin: 10px;
 
-
-
+            }
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -41,19 +55,17 @@ display: flex;
   align-content: normal;
 }
 
-form{
-    margin:0 auto;
-    text-align :center;
-}
-input{
-
-  width:30%;
-}
-
-div {
-    width:40%;
-    margin:0 auto;
-    background-color:F1FADA;
-
+.image {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
+.description {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
